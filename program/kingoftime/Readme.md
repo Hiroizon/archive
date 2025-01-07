@@ -1,0 +1,1 @@
+king of timeの一括登録

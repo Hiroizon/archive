@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>スケジュール一括入力</title>
+</head>
+<body>
+    <!-- スケジュールパターンの選択 -->
+    <label for="scheduleSelect">申請スケジュール:</label>
+    <select id="scheduleSelect">
+        <option value="none">-- 選択してください --</option>
+    </select><br><br>
+
+    <!-- メッセージの入力（初期値あり） -->
+    <label for="messageSelect">申請メッセージ:</label>
+    <input type="text" id="messageSelect" value="9:00-12:00/13:00-18:00"><br><br>
+
+    <button id="runScript">反映</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>

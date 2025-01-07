@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "king of 一括",
+  "version": "1.2",
+  "description": "king of timeのスケジュールを一括で入力します",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
